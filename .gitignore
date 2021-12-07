@@ -366,3 +366,9 @@ ASALocalRun/
 
 # Local History for Visual Studio
 .localhistory/
+vs2015/_int/
+vs2017/_int/
+vs2019/_int/
+vs2015/_out/
+vs2017/_out/
+vs2019/_out/
