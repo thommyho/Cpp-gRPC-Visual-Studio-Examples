@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.10
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1738
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HelloWorld", "HelloWorld", "{41355C31-F8E3-4EA2-99CA-C4600185421D}"
 EndProject
@@ -352,10 +352,10 @@ Global
 		{49065544-038F-4B63-8027-300553586C77}.Release|x64.Build.0 = Release|x64
 		{49065544-038F-4B63-8027-300553586C77}.Release|x86.ActiveCfg = Release|Win32
 		{49065544-038F-4B63-8027-300553586C77}.Release|x86.Build.0 = Release|Win32
-		{49065544-038F-4B63-8027-300553586C77}.RelWithDebInfo|x64.ActiveCfg = Release|x64
-		{49065544-038F-4B63-8027-300553586C77}.RelWithDebInfo|x64.Build.0 = Release|x64
-		{49065544-038F-4B63-8027-300553586C77}.RelWithDebInfo|x86.ActiveCfg = Release|Win32
-		{49065544-038F-4B63-8027-300553586C77}.RelWithDebInfo|x86.Build.0 = Release|Win32
+		{49065544-038F-4B63-8027-300553586C77}.RelWithDebInfo|x64.ActiveCfg = RelWithDebInfo|x64
+		{49065544-038F-4B63-8027-300553586C77}.RelWithDebInfo|x64.Build.0 = RelWithDebInfo|x64
+		{49065544-038F-4B63-8027-300553586C77}.RelWithDebInfo|x86.ActiveCfg = RelWithDebInfo|Win32
+		{49065544-038F-4B63-8027-300553586C77}.RelWithDebInfo|x86.Build.0 = RelWithDebInfo|Win32
 		{87B8B878-C124-4F3E-8218-8B2CFD4A1D10}.Debug|x64.ActiveCfg = Debug|x64
 		{87B8B878-C124-4F3E-8218-8B2CFD4A1D10}.Debug|x64.Build.0 = Debug|x64
 		{87B8B878-C124-4F3E-8218-8B2CFD4A1D10}.Debug|x86.ActiveCfg = Debug|Win32
@@ -388,10 +388,10 @@ Global
 		{26074903-8985-4B20-A80B-02F82C8D01C1}.Release|x64.Build.0 = Release|x64
 		{26074903-8985-4B20-A80B-02F82C8D01C1}.Release|x86.ActiveCfg = Release|Win32
 		{26074903-8985-4B20-A80B-02F82C8D01C1}.Release|x86.Build.0 = Release|Win32
-		{26074903-8985-4B20-A80B-02F82C8D01C1}.RelWithDebInfo|x64.ActiveCfg = Release|x64
-		{26074903-8985-4B20-A80B-02F82C8D01C1}.RelWithDebInfo|x64.Build.0 = Release|x64
-		{26074903-8985-4B20-A80B-02F82C8D01C1}.RelWithDebInfo|x86.ActiveCfg = Release|Win32
-		{26074903-8985-4B20-A80B-02F82C8D01C1}.RelWithDebInfo|x86.Build.0 = Release|Win32
+		{26074903-8985-4B20-A80B-02F82C8D01C1}.RelWithDebInfo|x64.ActiveCfg = RelWithDebInfo|x64
+		{26074903-8985-4B20-A80B-02F82C8D01C1}.RelWithDebInfo|x64.Build.0 = RelWithDebInfo|x64
+		{26074903-8985-4B20-A80B-02F82C8D01C1}.RelWithDebInfo|x86.ActiveCfg = RelWithDebInfo|Win32
+		{26074903-8985-4B20-A80B-02F82C8D01C1}.RelWithDebInfo|x86.Build.0 = RelWithDebInfo|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
