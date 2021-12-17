@@ -42,6 +42,11 @@
         absl_city.lib;
         absl_civil_time.lib;
         absl_cord.lib;
+        absl_cord_internal.lib;
+        absl_cordz_functions.lib;
+        absl_cordz_handle.lib;
+        absl_cordz_info.lib;
+        absl_cordz_sample_token.lib;
         absl_debugging_internal.lib;
         absl_demangle_internal.lib;
         absl_examine_stack.lib;
@@ -62,6 +67,8 @@
         absl_graphcycles_internal.lib;
         absl_hash.lib;
         absl_hashtablez_sampler.lib;
+        absl_raw_hash_set.lib;
+        absl_low_level_hash.lib;
         absl_int128.lib;
         absl_leak_check.lib;
         absl_leak_check_disable.lib;
@@ -79,7 +86,6 @@
         absl_random_internal_seed_material.lib;
         absl_random_seed_gen_exception.lib;
         absl_random_seed_sequences.lib;
-        absl_raw_hash_set.lib;
         absl_raw_logging_internal.lib;
         absl_spinlock_wait.lib;
         absl_stacktrace.lib;
@@ -94,7 +100,6 @@
         absl_throw_delegate.lib;
         absl_time.lib;
         absl_time_zone.lib;
-        absl_wyhash.lib;
         cares.lib;
         re2.lib;
         ssl.lib;
@@ -125,6 +130,11 @@
         absl_city.lib;
         absl_civil_time.lib;
         absl_cord.lib;
+        absl_cord_internal.lib;
+        absl_cordz_functions.lib;
+        absl_cordz_handle.lib;
+        absl_cordz_info.lib;
+        absl_cordz_sample_token.lib;
         absl_debugging_internal.lib;
         absl_demangle_internal.lib;
         absl_examine_stack.lib;
@@ -145,6 +155,8 @@
         absl_graphcycles_internal.lib;
         absl_hash.lib;
         absl_hashtablez_sampler.lib;
+        absl_raw_hash_set.lib;
+        absl_low_level_hash.lib;
         absl_int128.lib;
         absl_leak_check.lib;
         absl_leak_check_disable.lib;
@@ -162,7 +174,6 @@
         absl_random_internal_seed_material.lib;
         absl_random_seed_gen_exception.lib;
         absl_random_seed_sequences.lib;
-        absl_raw_hash_set.lib;
         absl_raw_logging_internal.lib;
         absl_spinlock_wait.lib;
         absl_stacktrace.lib;
@@ -177,7 +188,6 @@
         absl_throw_delegate.lib;
         absl_time.lib;
         absl_time_zone.lib;
-        absl_wyhash.lib;
         cares.lib;
         re2.lib;
         ssl.lib;
@@ -208,6 +218,11 @@
         absl_city.lib;
         absl_civil_time.lib;
         absl_cord.lib;
+        absl_cord_internal.lib;
+        absl_cordz_functions.lib;
+        absl_cordz_handle.lib;
+        absl_cordz_info.lib;
+        absl_cordz_sample_token.lib;
         absl_debugging_internal.lib;
         absl_demangle_internal.lib;
         absl_examine_stack.lib;
@@ -228,6 +243,8 @@
         absl_graphcycles_internal.lib;
         absl_hash.lib;
         absl_hashtablez_sampler.lib;
+        absl_raw_hash_set.lib;
+        absl_low_level_hash.lib;
         absl_int128.lib;
         absl_leak_check.lib;
         absl_leak_check_disable.lib;
@@ -244,8 +261,7 @@
         absl_random_internal_randen_slow.lib;
         absl_random_internal_seed_material.lib;
         absl_random_seed_gen_exception.lib;
-        absl_random_seed_sequences.lib;
-        absl_raw_hash_set.lib;
+        absl_random_seed_sequences.lib;        
         absl_raw_logging_internal.lib;
         absl_spinlock_wait.lib;
         absl_stacktrace.lib;
@@ -260,13 +276,12 @@
         absl_throw_delegate.lib;
         absl_time.lib;
         absl_time_zone.lib;
-        absl_wyhash.lib;
         cares.lib;
         re2.lib;
         ssl.lib;
         crypto.lib;
         zlibstatic.lib;
-        address_sorting.lib;
+        address_sorting.lib;                        
         gpr.lib;
         grpc.lib;
         grpc_plugin_support.lib;
