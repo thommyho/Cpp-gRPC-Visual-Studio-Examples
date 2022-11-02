@@ -71,7 +71,6 @@
         absl_low_level_hash.lib;
         absl_int128.lib;
         absl_leak_check.lib;
-        absl_leak_check_disable.lib;
         absl_log_severity.lib;
         absl_malloc_internal.lib;
         absl_periodic_sampler.lib;
@@ -159,7 +158,6 @@
         absl_low_level_hash.lib;
         absl_int128.lib;
         absl_leak_check.lib;
-        absl_leak_check_disable.lib;
         absl_log_severity.lib;
         absl_malloc_internal.lib;
         absl_periodic_sampler.lib;
@@ -247,7 +245,6 @@
         absl_low_level_hash.lib;
         absl_int128.lib;
         absl_leak_check.lib;
-        absl_leak_check_disable.lib;
         absl_log_severity.lib;
         absl_malloc_internal.lib;
         absl_periodic_sampler.lib;
