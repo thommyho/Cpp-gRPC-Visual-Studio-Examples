@@ -35,6 +35,24 @@
     <Link>
       <AdditionalDependencies Condition="'$(Configuration)' == 'Debug'">
         ws2_32.lib;
+        absl_crc32c.lib;
+        absl_crc_cord_state.lib;
+        absl_crc_cpu_detect.lib;
+        absl_crc_internal.lib;
+        absl_die_if_null.lib;
+        absl_log_entry.lib;
+        absl_log_flags.lib;
+        absl_log_globals.lib;
+        absl_log_initialize.lib;
+        absl_log_internal_check_op.lib;
+        absl_log_internal_conditions.lib;
+        absl_log_internal_format.lib;
+        absl_log_internal_globals.lib;
+        absl_log_internal_log_sink_set.lib;
+        absl_log_internal_message.lib;
+        absl_log_internal_nullguard.lib;
+        absl_log_internal_proto.lib;
+        absl_log_sink.lib;        
         absl_bad_any_cast_impl.lib;
         absl_bad_optional_access.lib;
         absl_bad_variant_access.lib;
@@ -122,6 +140,24 @@
         </AdditionalDependencies>
         <AdditionalDependencies Condition="'$(Configuration)' == 'RelWithDebInfo'">
         ws2_32.lib;
+        absl_crc32c.lib;
+        absl_crc_cord_state.lib;
+        absl_crc_cpu_detect.lib;
+        absl_crc_internal.lib;
+        absl_die_if_null.lib;
+        absl_log_entry.lib;
+        absl_log_flags.lib;
+        absl_log_globals.lib;
+        absl_log_initialize.lib;
+        absl_log_internal_check_op.lib;
+        absl_log_internal_conditions.lib;
+        absl_log_internal_format.lib;
+        absl_log_internal_globals.lib;
+        absl_log_internal_log_sink_set.lib;
+        absl_log_internal_message.lib;
+        absl_log_internal_nullguard.lib;
+        absl_log_internal_proto.lib;
+        absl_log_sink.lib;        
         absl_bad_any_cast_impl.lib;
         absl_bad_optional_access.lib;
         absl_bad_variant_access.lib;
