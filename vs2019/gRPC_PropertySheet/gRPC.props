@@ -136,6 +136,8 @@
         grpcpp_channelz.lib;
         upb.lib;
         libprotobufd.lib;
+        utf8_validity.lib;
+        utf8_range.lib;
         libprotocd.lib;%(AdditionalDependencies)
         </AdditionalDependencies>
         <AdditionalDependencies Condition="'$(Configuration)' == 'RelWithDebInfo'">
@@ -241,6 +243,8 @@
         grpcpp_channelz.lib;
         upb.lib;
         libprotobuf.lib;
+        utf8_validity.lib;
+        utf8_range.lib;
         libprotoc.lib;%(AdditionalDependencies)
       </AdditionalDependencies>
       <AdditionalDependencies Condition="'$(Configuration)' == 'Release'">
@@ -346,6 +350,8 @@
         grpcpp_channelz.lib;
         upb.lib;
         libprotobuf.lib;
+        utf8_validity.lib;
+        utf8_range.lib;
         libprotoc.lib;%(AdditionalDependencies)
       </AdditionalDependencies>
     </Link>
