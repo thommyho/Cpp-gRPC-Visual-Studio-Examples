@@ -88,6 +88,7 @@
         absl_raw_hash_set.lib;
         absl_low_level_hash.lib;
         absl_int128.lib;
+        absl_kernel_timeout_internal.lib;
         absl_leak_check.lib;
         absl_log_severity.lib;
         absl_malloc_internal.lib;
@@ -111,6 +112,7 @@
         absl_str_format_internal.lib;
         absl_strings.lib;
         absl_strerror.lib;
+        absl_string_view.lib;
         absl_strings_internal.lib;
         absl_symbolize.lib;
         absl_synchronization.lib;
@@ -135,9 +137,13 @@
         grpc_plugin_support.lib;
         grpcpp_channelz.lib;
         upb.lib;
+        upb_collections_lib.lib;
+        upb_json_lib.lib;
+        upb_textformat_lib.lib;
         libprotobufd.lib;
         utf8_validity.lib;
         utf8_range.lib;
+        utf8_range_lib.lib;
         libprotocd.lib;%(AdditionalDependencies)
         </AdditionalDependencies>
         <AdditionalDependencies Condition="'$(Configuration)' == 'RelWithDebInfo'">
@@ -195,6 +201,7 @@
         absl_raw_hash_set.lib;
         absl_low_level_hash.lib;
         absl_int128.lib;
+        absl_kernel_timeout_internal.lib;
         absl_leak_check.lib;
         absl_log_severity.lib;
         absl_malloc_internal.lib;
@@ -218,6 +225,7 @@
         absl_str_format_internal.lib;
         absl_strings.lib;
         absl_strerror.lib;
+        absl_string_view.lib;
         absl_strings_internal.lib;
         absl_symbolize.lib;
         absl_synchronization.lib;
@@ -242,9 +250,13 @@
         grpc_plugin_support.lib;
         grpcpp_channelz.lib;
         upb.lib;
+        upb_collections_lib.lib;
+        upb_json_lib.lib;
+        upb_textformat_lib.lib;
         libprotobuf.lib;
         utf8_validity.lib;
         utf8_range.lib;
+        utf8_range_lib.lib;
         libprotoc.lib;%(AdditionalDependencies)
       </AdditionalDependencies>
       <AdditionalDependencies Condition="'$(Configuration)' == 'Release'">
@@ -284,6 +296,7 @@
         absl_raw_hash_set.lib;
         absl_low_level_hash.lib;
         absl_int128.lib;
+        absl_kernel_timeout_internal.lib;
         absl_leak_check.lib;
         absl_log_severity.lib;
         absl_malloc_internal.lib;
@@ -307,6 +320,7 @@
         absl_str_format_internal.lib;
         absl_strings.lib;
         absl_strerror.lib;
+        absl_string_view.lib;
         absl_strings_internal.lib;
         absl_symbolize.lib;
         absl_synchronization.lib;
@@ -331,9 +345,13 @@
         grpc_plugin_support.lib;
         grpcpp_channelz.lib;
         upb.lib;
+        upb_collections_lib.lib;
+        upb_json_lib.lib;
+        upb_textformat_lib.lib;
         libprotobuf.lib;
         utf8_validity.lib;
         utf8_range.lib;
+        utf8_range_lib.lib;
         libprotoc.lib;%(AdditionalDependencies)
       </AdditionalDependencies>
     </Link>
