@@ -136,9 +136,10 @@
         grpc++_unsecure.lib;
         grpc_plugin_support.lib;
         grpcpp_channelz.lib;
-        upb.lib;
-        upb_collections_lib.lib;
+        upb_base_lib.lib;
+        upb_message_lib.lib;
         upb_json_lib.lib;
+        upb_mem_lib.lib;
         upb_textformat_lib.lib;
         libprotobufd.lib;
         utf8_validity.lib;
@@ -249,9 +250,10 @@
         grpc++_unsecure.lib;
         grpc_plugin_support.lib;
         grpcpp_channelz.lib;
-        upb.lib;
-        upb_collections_lib.lib;
+        upb_base_lib.lib;
+        upb_message_lib.lib;
         upb_json_lib.lib;
+        upb_mem_lib.lib;
         upb_textformat_lib.lib;
         libprotobuf.lib;
         utf8_validity.lib;
@@ -344,9 +346,10 @@
         grpc++_unsecure.lib;
         grpc_plugin_support.lib;
         grpcpp_channelz.lib;
-        upb.lib;
-        upb_collections_lib.lib;
+        upb_base_lib.lib;
+        upb_message_lib.lib;
         upb_json_lib.lib;
+        upb_mem_lib.lib;
         upb_textformat_lib.lib;
         libprotobuf.lib;
         utf8_validity.lib;
