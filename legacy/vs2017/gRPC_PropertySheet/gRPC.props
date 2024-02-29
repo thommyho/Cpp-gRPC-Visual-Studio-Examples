@@ -70,7 +70,6 @@
         absl_examine_stack.lib;
         absl_exponential_biased.lib;
         absl_failure_signal_handler.lib;
-        absl_flags.lib;
         absl_flags_commandlineflag.lib;
         absl_flags_commandlineflag_internal.lib;
         absl_flags_config.lib;
@@ -184,7 +183,6 @@
         absl_examine_stack.lib;
         absl_exponential_biased.lib;
         absl_failure_signal_handler.lib;
-        absl_flags.lib;
         absl_flags_commandlineflag.lib;
         absl_flags_commandlineflag_internal.lib;
         absl_flags_config.lib;
@@ -280,7 +278,6 @@
         absl_examine_stack.lib;
         absl_exponential_biased.lib;
         absl_failure_signal_handler.lib;
-        absl_flags.lib;
         absl_flags_commandlineflag.lib;
         absl_flags_commandlineflag_internal.lib;
         absl_flags_config.lib;
