@@ -52,6 +52,7 @@
         absl_log_internal_message.lib;
         absl_log_internal_nullguard.lib;
         absl_log_internal_proto.lib;
+        absl_log_internal_fnmatch.lib;
         absl_log_sink.lib;        
         absl_bad_any_cast_impl.lib;
         absl_bad_optional_access.lib;
@@ -70,6 +71,7 @@
         absl_examine_stack.lib;
         absl_exponential_biased.lib;
         absl_failure_signal_handler.lib;
+        absl_vlog_config_internal.lib;
         absl_flags_commandlineflag.lib;
         absl_flags_commandlineflag_internal.lib;
         absl_flags_config.lib;
@@ -165,6 +167,7 @@
         absl_log_internal_message.lib;
         absl_log_internal_nullguard.lib;
         absl_log_internal_proto.lib;
+        absl_log_internal_fnmatch.lib;
         absl_log_sink.lib;        
         absl_bad_any_cast_impl.lib;
         absl_bad_optional_access.lib;
@@ -183,6 +186,7 @@
         absl_examine_stack.lib;
         absl_exponential_biased.lib;
         absl_failure_signal_handler.lib;
+        absl_vlog_config_internal.lib;
         absl_flags_commandlineflag.lib;
         absl_flags_commandlineflag_internal.lib;
         absl_flags_config.lib;
@@ -278,6 +282,7 @@
         absl_log_internal_message.lib;
         absl_log_internal_nullguard.lib;
         absl_log_internal_proto.lib;
+        absl_log_internal_fnmatch.lib;
         absl_log_sink.lib;        
         absl_bad_any_cast_impl.lib;
         absl_bad_optional_access.lib;
@@ -296,6 +301,7 @@
         absl_examine_stack.lib;
         absl_exponential_biased.lib;
         absl_failure_signal_handler.lib;
+        absl_vlog_config_internal.lib;
         absl_flags_commandlineflag.lib;
         absl_flags_commandlineflag_internal.lib;
         absl_flags_config.lib;
