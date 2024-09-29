@@ -142,6 +142,7 @@
         upb_json_lib.lib;
         upb_mem_lib.lib;
         upb_textformat_lib.lib;
+        upb_wire_lib.lib;
         libprotobufd.lib;
         utf8_validity.lib;
         utf8_range.lib;
@@ -257,6 +258,8 @@
         upb_json_lib.lib;
         upb_mem_lib.lib;
         upb_textformat_lib.lib;
+        upb_mini_descriptor_lib.lib;        
+        upb_wire_lib.lib;
         libprotobuf.lib;
         utf8_validity.lib;
         utf8_range.lib;
@@ -372,6 +375,8 @@
         upb_json_lib.lib;
         upb_mem_lib.lib;
         upb_textformat_lib.lib;
+        upb_mini_descriptor_lib.lib;        
+        upb_wire_lib.lib;        
         libprotobuf.lib;
         utf8_validity.lib;
         utf8_range.lib;
