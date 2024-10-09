@@ -26,7 +26,7 @@
 #include "keyvaluestore.grpc.pb.h"
 
 
-    using grpc::Channel;
+using grpc::Channel;
 using grpc::ClientContext;
 using grpc::Status;
 using keyvaluestore::KeyValueStore;

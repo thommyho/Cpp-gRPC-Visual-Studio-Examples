@@ -1,6 +1,6 @@
 /*
  *
- * Copyright 2018 gRPC authors.
+ * Copyright 2021 gRPC authors.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -16,9 +16,12 @@
  *
  */
 
+#include <grpcpp/support/client_interceptor.h>
+
 #include <map>
 
-#include <grpcpp/support/client_interceptor.h>
+#include "absl/log/check.h"
+
 #include "keyvaluestore.grpc.pb.h"
 
  // This is a naive implementation of a cache. A new cache is for each call. For
@@ -58,9 +61,8 @@ public:
                 keyvaluestore::Request req_msg;
                 auto* buffer = methods->GetSerializedSendMessage();
                 auto copied_buffer = *buffer;
-                GPR_ASSERT(
-                    grpc::SerializationTraits<keyvaluestore::Request>::Deserialize(
-                        &copied_buffer, &req_msg)
+                CHECK(grpc::SerializationTraits<keyvaluestore::Request>::Deserialize(
+                    &copied_buffer, &req_msg)
                     .ok());
                 requested_key = req_msg.key();
             }
@@ -68,11 +70,11 @@ public:
             // Check if the key is present in the map
             auto search = cached_map_.find(requested_key);
             if (search != cached_map_.end()) {
-                std::cout << "Key " << requested_key << "found in map";
+                std::cout << requested_key << " found in map" << std::endl;
                 response_ = search->second;
             }
             else {
-                std::cout << "Key " << requested_key << "not found in cache";
+                std::cout << requested_key << " not found in cache" << std::endl;
                 // Key was not found in the cache, so make a request
                 keyvaluestore::Request req;
                 req.set_key(requested_key);
