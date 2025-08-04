@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" 
+  xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Label="PropertySheets" />
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <PropertyGroup Label="UserMacros">
+    <!-- Platform Defines -->
+    <ShortPlatform Condition="'$(Platform)' == 'Win32'">x86</ShortPlatform>
+    <ShortPlatform Condition="'$(Platform)' == 'x64'">x64</ShortPlatform>
+    <PlatformSuffix Condition="'$(ShortPlatform)' == 'x64'">64</PlatformSuffix>
+    <PlatformSuffix Condition="'$(ShortPlatform)' == 'x86'">32</PlatformSuffix>
+    <!-- gRPC Defines -->
+    <GRPC_VERSIONS_ROOT_DIR>$(SolutionDir)..\</PRODUCT_ROOT_DIR>
+    <GRPC_ROOT_DIR>$(GRPC_VERSIONS_ROOT_DIR)MSVC$(PlatformToolsetVersion)_$(PlatformSuffix)\$(Configuration)\</GRPC_ROOT_DIR>
+    <GRPC_INC_DIR>$(GRPC_ROOT_DIR)include\</GRPC_INC_DIR>
+    <GRPC_LIB_DIR>$(GRPC_ROOT_DIR)lib\</GRPC_LIB_DIR>
+    <GRPC_BIN_DIR>$(GRPC_ROOT_DIR)lib\</GRPC_BIN_DIR>
+    <!-- gRPC-Protbuf Generator Defines -->
+    <PROTOC_BINARY>$(GRPC_BIN_DIR)protoc.exe</PROTOC_BINARY>
+    <GRPC_CPP_PLUGIN_BINARY>$(GRPC_BIN_DIR)grpc_cpp_plugin.exe</GRPC_CPP_PLUGIN_BINARY>
+    <!-- Protoc Generated Files Path Defines -->
+    <PROTOC_GEN_OUT_DIR>$(SolutionDir)_gen_proto_cpp\</PROTOC_GEN_OUT_DIR>
+    <GRPC_PROTO_GEN_FILES>$(PROTOC_GEN_OUT_DIR)\</GRPC_PROTO_GEN_FILES>
+    <PROTO_FILES_DIR>$(SolutionDir)protos\</PROTO_FILES_DIR>
+  </PropertyGroup>
+  <PropertyGroup>
+    <IncludePath>$(GRPC_INC_DIR);$(IncludePath)</IncludePath>
+    <LibraryPath>$(GRPC_LIB_DIR);$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies Condition="'$(Configuration)' == 'Debug'">address_sorting.lib;cares.lib;crypto.lib;decrepit.lib;gpr.lib;grpc.lib;grpc_cronet.lib;grpc_plugin_support.lib;grpc_unsecure.lib;grpc++.lib;grpc++_cronet.lib;grpc++_error_details.lib;grpc++_reflection.lib;grpc++_unsecure.lib;grpcpp_channelz.lib;libprotobufd.lib;libprotoc.lib;ssl.lib;zlibstaticd.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies Condition="'$(Configuration)' == 'RelWithDebInfo'">address_sorting.lib;cares.lib;crypto.lib;decrepit.lib;gpr.lib;grpc.lib;grpc_cronet.lib;grpc_plugin_support.lib;grpc_unsecure.lib;grpc++.lib;grpc++_cronet.lib;grpc++_error_details.lib;grpc++_reflection.lib;grpc++_unsecure.lib;grpcpp_channelz.lib;libprotobuf.lib;libprotoc.lib;ssl.lib;zlibstatic.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies Condition="'$(Configuration)' == 'Release'">address_sorting.lib;cares.lib;crypto.lib;decrepit.lib;gpr.lib;grpc.lib;grpc_cronet.lib;grpc_plugin_support.lib;grpc_unsecure.lib;grpc++.lib;grpc++_cronet.lib;grpc++_error_details.lib;grpc++_reflection.lib;grpc++_unsecure.lib;grpcpp_channelz.lib;libprotobuf.lib;libprotoc.lib;ssl.lib;zlibstatic.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup />
+</Project>
