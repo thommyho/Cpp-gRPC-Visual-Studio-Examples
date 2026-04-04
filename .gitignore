@@ -1,0 +1,5 @@
+.vs/
+_gen_proto_cpp/
+_int/
+_out/
+*.vcxproj.user
