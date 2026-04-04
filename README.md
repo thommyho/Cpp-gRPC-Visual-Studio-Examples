@@ -1,4 +1,4 @@
-# gRPC C++ Examples for Windows
+# gRPC C++ Examples for Windows (v1.80.0)
 
 This directory contains Visual Studio–friendly variants of the official gRPC C++ examples.
 Place the build e.g.: `MSVC143_64` one level above the `gRPC` solution or modify the Property-Sheet variable.
