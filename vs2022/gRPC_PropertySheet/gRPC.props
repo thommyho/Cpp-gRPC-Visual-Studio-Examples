@@ -158,7 +158,6 @@
         upb_textformat_lib.lib;
         upb_wire_lib.lib;
         utf8_range_lib.lib;
-        zlibd.lib;
         zlibstaticd.lib;
         %(AdditionalDependencies)
         </AdditionalDependencies>
@@ -286,7 +285,6 @@
           upb_textformat_lib.lib;
           upb_wire_lib.lib;
           utf8_range_lib.lib;
-          zlib.lib;
           zlibstatic.lib;
           %(AdditionalDependencies)
       </AdditionalDependencies>
@@ -414,7 +412,6 @@
         upb_textformat_lib.lib;
         upb_wire_lib.lib;
         utf8_range_lib.lib;
-        zlib.lib;
         zlibstatic.lib;
         %(AdditionalDependencies)
       </AdditionalDependencies>
