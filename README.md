@@ -1,3 +1,3 @@
 # Cpp gRPC Visual Studio Examples
  Place for holding the Visual Studio Examples source code
- Latest version of gRPC 1.81.1
+ Latest version of gRPC 1.82.0
